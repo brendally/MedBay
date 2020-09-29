@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', Times, serif, Helvetica, sans-serif;	    font-family: Arial, Helvetica, sans-serif;
+    color: #1c2845;	    background-color: #196F3D;
+    background-color: #1c2845;
+    background-image: url("/images/backgroundimagefinal.jpg");
+}	
+}
+header {	
+  background-color: #1c2845;	
+  border-bottom:#1c2845;	
+  position: fixed;	
+  width: 100%;	
+  z-index: 10;	
+}	
+div.top {	
+  overflow: hidden;	
+  background-color: #ffffff;	
+  align-self: flex-start;	
+  align-items: flex-start;	
+  align-content: flex-start;	
+  justify-self: flex-start;	
+  justify-content: flex-start;	
+  justify-items: flex-start;	
+  padding-top: 1px;	
+}	
+#topimg{	
+  flex:1;	
+  align-self: flex-start;	
+  align-items: flex-start;	
+  align-content: flex-start;	
+  justify-self: flex-start;	
+  justify-content: flex-start;	
+  justify-items: flex-start;	
+}	
+.nav {	
+    background-color: #ffffff;	
+    color: #1c2845;	
+    list-style: none;	
+    text-align: center;	
+  margin: 0;	
+  padding: 10px 0 10px 0;
+  }
+.nav > li {
+  display: inline-block;
+  padding: 0 25px 0 25px;
+}
+.nav > li > a {
+text-decoration: none;
+color: #1c2845;
+font-size: 1.4rem;
+}
+.nav > li > a:hover {
+  color: #82b4c6;
+}
+
+h1 {
+  padding-left: 80px;
+  text-align: Justify;
+  margin-top: 60px;
+}
+h2 {
+  padding-left: 80px;
+  text-align: Justify;
+  font-size: 150%;
+  margin-top: 50px;
+
+}
+h3 {
+  width: 1000px;
+  text-align: Justify;
+  text-indent: 50px;
+  padding-left: 100px;
+}
+h4{ 
+  text-align: Justify;
+}
+
+  .top a {
+    justify-content: center;
+    float: left;
+    color: #1c2845;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    position:relative;
+    top:50%; 
+    left:50%;
+  }
+  
+  <h4> {
+    color: black;
+    border-bottom: 5px solid white;
+  }
+ 
+
+h5{
+  color:#82b4c6;
+  font-size:250%;
+}
+  #mapid { height: 180px; }
+  }

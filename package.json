@@ -1,0 +1,28 @@
+{
+  "name": "hacktcnj20",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertLudwick/HackTCNJ20.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertLudwick/HackTCNJ20/issues"
+  },
+  "homepage": "https://github.com/RobertLudwick/HackTCNJ20#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "heatmap.js": "^2.0.5",
+    "leaflet": "^1.6.0",
+    "plotly": "^1.0.6",
+    "react-leaflet": "^2.6.1",
+    "socket.io": "^2.3.0"
+  }
+}

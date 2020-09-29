@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Index</title>
+<link href="Styles/style1.css" rel="stylesheet" type="text/css">
+<script src="scripts/button.js"></script>
+</head>
+<body>
+  <ul class="nav">	      </div>
+    <div class="top">	      <div>
+       <img id='topimg' src="/images/medbay.png" alt="image" width="180" height="160" />
+   </div>	      </div>
+   <li><a href="#">About Us</a></li>	
+   <li><a href="about">Determine your next step</a></li>	
+
+</ul>	    
+    <div style="padding-left: 20px">
+      <h2>Determine the severity of your symptoms and the appropriate actions to take</h2>
+    </div>
+    <form action="process.php" method="POST">
+      <div style="padding-left:20px">
+        <h3>Personal Particulars</h3>
+        <label>First Name</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Enter first name">
+        <label>Last Name</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Enter last name">
+      </div>
+      <br>
+      <div style="padding-left:20px">        
+        <label>Age</label>
+        <input type="number" name="Age" id="Age">
+      </div>
+      <br>
+      <div style="padding-left: 20px">       
+        <label>Gender</label>
+        <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <br>
+      <div style="padding-left:20px">
+        <label>State</label>
+        <select name="country" id="State">
+          <option value="NY">NY</option>
+          <option value="MO">MO</option>
+          <option value="NJ">NJ</option>
+          <option value="FL">FL</option>
+          <option value="WA">WA</option>
+          <option value="TX">TX</option>
+          <option value="CA">CA</option>
+          <option value="UT">UT</option>
+          <option value="OK">OK</option>
+        </select>
+      </div>
+      <br>
+      <div style="padding-left:20px">
+        <label>City</label>
+        <input type="text" name=city>
+      </div>
+      <br>
+      <div style="padding-left:20px">
+        <label>Zip Code</label>
+        <input type="number" name="zipcode">
+      </div>
+      <br>
+      <div style="padding-bottom: 10px;"></div>
+      <div style="padding-left:20px">        
+        <h3>Travel History</h3>
+        <label>Have you travelled out of the US in the past 2 months?</label>
+        <br>
+        <label>Yes</label>
+        <input type="checkbox" name="yes" id="yes">
+        <label>No</label>
+        <input type="checkbox" name="no" id="no">
+        <br>
+        <label>If yes, please submit your travel history:</label>
+        <br>
+        <label>Country visited:</label>
+        <select name="country" id="country">
+          <option value="NIL">NIL</option>
+          <option value="China">China</option>
+          <option value="Italy">Italy</option>
+          <option value="Singapore">Singapore</option>
+          <option value="United States">United States</option>
+          <option value="Iran">Iran</option>
+          <option value="Hong Kong">Hong Kong</option>
+          <option value="Malaysia">Malaysia</option>
+          <option value="France">France</option>
+          <option value="Denmark">Denmark</option>
+          <option value="South Korea">South Korea</option>
+          <option value="Japan">Japan</option>
+          <option value="Others">Others</option>
+        </select>  
+      </div>
+      <br>
+      <div style="padding-bottom: 10px;"></div>
+      <div style="padding-left: 20px;">
+        <h3>Symptoms</h3>
+        <label>1. Cough</label>
+        <input type="checkbox" name="cough" id="cough">
+        <br>
+        <label>How many days ago did your onset of cough start?</label>
+        <input type="number" id="number-cough">
+        <br>
+        <div style="padding-bottom: 10px;"></div>
+        <label>2. Fever</label>
+        <input type="checkbox" name="fever" id="fever">
+        <br>
+        <label>Latest temperature reading:</label>
+        <input type="number" id="number-fever">
+        <br>
+        <label>How many days ago did your onset of fever start?</label>
+        <input type="number" id="number-fever2">
+        <br>
+        <div style="padding-bottom: 10px;"></div>
+        <label>3. Shortness of Breath</label>
+        <input type="checkbox" name="shortnessofbreath" id="shortnessofbreath" >
+        <br>
+        <label>How many days ago did your onset of shortness of breath start?</label>
+        <input typr="number" id="number-shortnessofbreath">
+        <br>
+        <div style="padding-bottom: 10px;"></div>
+        <label>4. Sore Throat</label>
+        <input type="checkbox" name="sorethroat" id="sorethroat">
+        <br>
+        <label>How many days ago did your onset of sore throat start?</label>
+        <input type="number" id="number-sorethroat">
+        <br>
+        <div style="padding-bottom: 10px;"></div>
+        <label>5. Headache</label>
+        <input type="checkbox" name="sorethroat" id="sorethroat">
+        <br>
+        <label>How many days ago did your onset of headache start?</label>
+        <input type="number" id="number-sorethroat">
+        <br>
+        <div style="padding-bottom: 10px;"></div>
+        <label>6. Others</label>
+        <textarea name="others"></textarea>
+    <br>
+      <div>
+        <div style="padding-bottom: 10px;"></div>
+        <h3>Do you have any pre-existing conditions?</h3>
+        <label>Yes</label>
+        <input type="checkbox" name="yes" id="yes">
+        <label>No</label>
+        <input type="checkbox" name="no" name="no">
+        <br>
+        <h4>If yes, please select those below that apply, if you have other pre-existing conditions, please submit under "others":</h4>
+        <select name="prexconditions" id="prexconditions">
+          <option value="NIL">NIL</option>
+          <option value="Hypertension">Hypertension</option>
+          <option value="Diabetes">Diabetes</option>
+          <option value="Chronic Respiratory Disease">Chronic Respiratory Disease</option>
+          <option value="Cancer">Cancer</option>
+          <option value="Cardiovascular disease">Cardiovascular disease</option>
+          <option value="Others">Others</option>
+        </select>
+        <br>
+        <div style="padding-bottom: 5px;"></div>
+        <label>Others</label>
+        <textarea name="message">
+        </textarea>
+      </div>
+		</div>
+      </div>
+      <br>
+      <div style="text-align:center">
+      <input type="button" name="submit" value="submit" onclick="store_data()">
+    </div>
+    <div style="padding-bottom: 100px;"></div>
+    </form>
+    
+    </body>
+</html>
